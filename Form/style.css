@@ -1,0 +1,63 @@
+
+p{
+    color: blue;
+}
+
+#firstNameId{
+    color: aquamarine;
+}
+label{
+    color: aqua;
+}
+/*Descendant
+#registrationFormId button{
+    background-color: blanchedalmond;
+}
+ */
+td{
+    padding: 50px;
+    margin: 30px;
+}
+ img{
+     border: 5px dotted orangered;
+ }
+ #SigninBtnId1{
+  background-color: purple;
+     color: white;
+ padding: 10px;
+  margin:20px;
+
+ }
+#SigninBtnId2{
+    background-color: white;
+    color: red;
+    margin:20px;
+    padding: 10px;
+}
+#SigninBtnId3{
+     background-color: yellow;
+     color: green;
+     font-family: "Comic Sans MS";
+     text-decoration: underline;
+     margin:20px;
+
+ }
+#SigninBtnId4{
+    background-color: white;
+    color: blue;
+    font-family: "Comic Sans MS";
+    border: 3px dashed pink;
+    margin:20px;
+ padding: 10px;
+}
+#SigninBtnId1:hover{
+    background-color: red;
+    color:black;
+
+}
+@media(max-width: 411px) {
+    label {
+        font-family: "Georgia";
+        font-size: 20px;
+    }
+}

@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>SDA HTML Forms</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+<div id="formDiv">
+    <p id="para"></p>
+<form id="registrationFormId" name="registrationForm">
+    <label for="firstNameId">FirstName</label>
+    <input type="text" name="firstName" id="firstNameId"/>
+    <br><br>
+    <label for="addressId"> Address:</label>
+    <textarea name="address" id="addressId" rows="5" cols="30"></textarea>
+    <br> <br>
+    <label>Gender</label>
+    <label for="genderMale">
+        <input type="radio" name="gender" id="genderMale"/>&nbsp;male
+    </label>
+    <label for="genderFemale">
+        <input type="radio" name="gender" id="genderFemale"/>&nbsp;female
+    </label>
+    <br><br>
+    <label>favourite Movie </label>
+    <label for="Harryporter">
+        <input type="checkbox" name="favouriteMovie" id="Harryporter"/>&nbsp;Harryporter
+    </label>
+    <label for="Avenger">
+        <input type="checkbox" name="favouriteMovie" id="Avenger"/>&nbsp;Avenger
+    </label>
+    <br>
+    <label for="favFoodId">Select favourite food</label>
+    <select name="favFood" id="favFoodId">
+        <option value="pizza">pizza</option>
+        <option value="burger">Burger</option>
+        <option value="wrap">Wrap</option>
+    </select>
+    <button name="registerBtn" id="registerBtnId"><em>Register</em></button>
+</form>
+</div>
+<script src="script.js"></script>
+</body>
+</html>
